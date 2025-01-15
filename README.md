@@ -1,3 +1,5 @@
+<p align="center"><img width="520" height="210" src="highlights/uidisplay.jpg" alt="Soalan Trading Bot" /></p>
+
 > PumpTrader Bot is a state-of-the-art portable tool crafted for traders, token developers, and blockchain projects within the Solana network. This powerful bot automates trading operations with customizable settings, supports RPC URLs, APIs, and advanced protocols for seamless integration. Its portable design ensures instant transactions outpacing competitors while safeguarding funds. Key features include automatic liquidity management, token sniping during sales and post-listing, customizable trading strategies like 'Buy the Dip,' 'Trailing Stop-Loss,' Limit Orders, Buy/Sell parameters, Pump Orders, Anti-damp protection, wallet creation and management, and Market-making (AMM). Optimize efficiency and profitability with PumpTrader Bot in the dynamic DeFi landscape.
 
 > Work on MAC OS & Windows
