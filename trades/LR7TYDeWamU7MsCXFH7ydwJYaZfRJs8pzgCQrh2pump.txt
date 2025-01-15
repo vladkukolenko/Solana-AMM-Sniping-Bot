@@ -1,0 +1,9 @@
+{
+  "name": "RAKAMAKAFO",
+  "symbol": "MAKAFO",
+  "uri": "https://cf-ipfs.com/ipfs/QmYyNfffJL8aLzsQQBxSDEmbQ2STSPS35rfFwE7isjJiVu",
+  "mint": "LR7TYDeWamU7MsCXFH7ydwJYaZfRJs8pzgCQrh2pump",
+  "bondingCurve": "9UznPeXvYtPqq8saSyM65cC8LCtyAKPnLCGG7Mq1pUTq",
+  "associatedBondingCurve": "CTe6pwwgzEUvRmPGRE2EZXrESpiWawK5TwyJhgvFgJ6T",
+  "user": "Ev5WEEJ2Y1qKGE8KCNvBNVEgy9fJUuttA93pMo2fcGFd"
+}

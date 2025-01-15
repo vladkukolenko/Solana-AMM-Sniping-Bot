@@ -1,0 +1,16 @@
+import json
+import requests
+import time
+from solana.rpc.api import Client
+from telebot import TeleBot
+from telebot.types import Message
+
+# Configuration
+CONFIG_FILE = "config.json"
+
+# Load configuration
+def load_config():
+    with open(CONFIG_FILE, "r") as f:
+        return json.load(f)
+
+config = load_config()

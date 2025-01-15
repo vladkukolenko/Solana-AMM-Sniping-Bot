@@ -1,0 +1,30 @@
+
+import web3
+
+def place_order(w3, pair, amount, price):
+  """Places an order on a DEX exchange.
+
+  Args:
+    w3: Web3 object connected to the wallet.
+    pair: The trading pair (e.g. "ETH/USDT").
+    amount: The amount of the order.
+    price: The price of the order.
+
+  Returns:
+    The transaction of placing the order.
+  """
+  # Create an exchange contract
+  exchange_contract = w3.eth.contract(
+      address="YOUR_EXCHANGE_CONTRACT_ADDRESS",
+      abi="YOUR_EXCHANGE_CONTRACT_ABI"
+  )
+
+  # Create order
+  order = exchange_contract.functions.createOrder(
+      pair, amount, price
+  ).buildTransaction()
+
+  # Send the order
+  transaction_hash = w3.eth.sendTransaction(order)
+
+  return transaction_hash
