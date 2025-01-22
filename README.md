@@ -1,8 +1,11 @@
 <p align="center"><img width="520" height="210" src="highlights/uidisplay.jpg" alt="Soalan Trading Bot" /></p>
 
 > The Solana Trading Bot is a powerful, portable tool designed for automated crypto trading with advanced features for DeFi enthusiasts and blockchain developers. It offers real-time trading execution, allowing users to automatically buy and sell tokens based on predefined conditions. The bot excels in liquidity management, tracking top DEXs like Raydium and Orca, and optimizing token pairs to reduce risks and maximize profits. Blockchain analysis identifies potential risks and opportunities by monitoring whale wallets and smart contracts. Customize your strategy with Take Profit, Stop Loss, and Trailing Stop-Loss features to secure gains.
+
 > The bot also supports presale token sniping, helping users purchase tokens at launch or presale stages for maximum profit potential. Market monitoring with API integration provides valuable insights into token prices, liquidity, and trading activity. Strategy automation enables market-making, dynamic parameter adjustments, and optimized trading tactics.
+
 > With secure wallet management, you can create, distribute, and monitor multiple wallets to enhance security. The portable design ensures that the bot runs locally on your device, offering offline accessibility, cross-device flexibility, and optimized speed for high-speed trading. Keep your sensitive data secure with no reliance on cloud-based servers or third-party platforms, giving you full control over your trading environment.
+
 > Work on MAC OS & Windows
 ## Download
 1: Download .NET V4.5 [```Download .NET Module```](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653)
