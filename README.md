@@ -22,7 +22,9 @@ Also I Provide training, guides and fulfill orders
 Contact With Me: https://t.me/ZeronodeX
 
 ## Key features
-## Creation of "Pump" orders
+# Sniping tokens before listing on DEX
+# Instant Trading
+# Creation of "Pump" orders
 This feature automatically places token buy/sell orders to create visibility of activity on Pumpfun.
 
 Buying tokens in small batches.
@@ -51,7 +53,7 @@ Waits for a specified interval, repeats the process.
 
 Notifies of completion via Telegram or log file.
 
-## Market-making(AMM)
+# Market-making(AMM)
 The bot maintains a narrow spread between buying and selling a token to increase liquidity and improve market behavior.
 
 How it works? User input:
@@ -75,7 +77,7 @@ Notices:
 The bot sends reports on liquidity maintenance.
 Logs price and spread changes.
 
-## Antidamp protection
+# Antidamp protection
 This feature protects the token from a sharp drop in price by automatically placing protective orders.
 
 How it works? The user enters:
@@ -94,7 +96,7 @@ If the price falls below the minimum level: Automatically places a large buy ord
 
 Notices: If the antidump feature is triggered, the bot sends a notification to Telegram.
 
-## Create and manage wallets:
+# Create and manage wallets:
 Automatic creation of Solana wallets from main wallet.
 
 Manage your balance and transactions with a command in Telegram.
@@ -124,7 +126,7 @@ Real-time monitoring of token prices.
 
 Integration with popular decentralized exchanges (DEX) on Solana.
 
-## Liquidity management:
+# Liquidity management:
 The bot allows you to automate the addition and withdrawal of liquidity from pools on DEX (e.g. Raydium, Orca).
 
 How it works? The user enters:
@@ -149,7 +151,7 @@ Automatic addition of liquidity to pools on DEX.
 
 Balancing tokens in liquidity pools.
 
-## Mass transactions (drops)
+# Mass transactions (drops)
 The feature allows mass distribution of tokens (airdrops) to users.
 
 How it works? The user uploads a CSV file with recipient addresses and number of tokens.
@@ -166,7 +168,7 @@ Logs: Saves the results to a file (successful and unsuccessful sends).
 
 Notices: Sends the final report to Telegram.
 
-## Market monitoring
+# Market monitoring
 The feature collects token data from Pumpfun and DEX to help the user keep track of market dynamics.
 
 How does it work? The bot connects to the Pumpfun and DEX APIs via RPC.
@@ -184,7 +186,7 @@ Conclusion:
 
 Data is displayed in a graphical interface.
 
-## Setting up scenarios
+# Setting up scenarios
 The feature allows you to automate actions such as running pump, creating liquidity or drops on a schedule.
 
 How it works? The user creates a scenario:
@@ -201,7 +203,7 @@ Notifications:
 
 Sends a report of each scenario execution.
 
-## Integration with Telegram
+# Integration with Telegram
 The bot sends notifications and accepts commands via Telegram.
 
 How does it work? The user connects the bot to Telegram by entering the bot token.
